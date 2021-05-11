@@ -8,9 +8,14 @@ namespace Ekz_Gorodkov_MinNechetn
 {
     class Program
     {
-        static void Main(string[] args)
+		/// <summary>
+		/// Контрольная работа
+		/// Задача: Найти минимальный из элементов массива с нечетными индексами
+		/// Автор: Городков Артём
+		/// </summary>
+		static void Main(string[] args)
         {
-				Console.WriteLine("Задание: Минимальный из элементов массива с нечетными индексами");
+				Console.WriteLine("Задание: Найти минимальный из элементов массива с нечетными индексами");
 				Console.WriteLine();
 				Console.WriteLine("Введите длину массива");
 				int m = int.Parse(Console.ReadLine());
